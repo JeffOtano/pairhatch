@@ -1,0 +1,12 @@
+{
+  "name": "pairhatch",
+  "version": "10.0.0",
+  "description": "Guided setup for bounded agent consultations. No automatic connections.",
+  "author": {
+    "name": "Jeff Otano"
+  },
+  "homepage": "https://github.com/JeffOtano/pairhatch",
+  "repository": "https://github.com/JeffOtano/pairhatch",
+  "license": "MIT",
+  "skills": "./skills/"
+}

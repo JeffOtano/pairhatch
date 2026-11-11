@@ -1,0 +1,26 @@
+{
+  "version": 10,
+  "experimental_native_transports": false,
+  "database": "REPLACE_WITH_ABSOLUTE_PRIVATE_DATABASE_PATH",
+  "peers": [
+    {
+      "id": "peer-a",
+      "label": "Codex peer",
+      "kind": "codex_queue",
+      "thread_id": "REPLACE_WITH_AUTHORIZED_THREAD_UUID",
+      "binary": "REPLACE_WITH_ABSOLUTE_CODEX_EXECUTABLE",
+      "version": "REPLACE_WITH_VALIDATED_CLI_VERSION",
+      "codex_home": "REPLACE_WITH_AUTHORIZED_ABSOLUTE_CODEX_HOME"
+    },
+    {
+      "id": "peer-b",
+      "label": "Claude peer",
+      "kind": "claude_socket",
+      "session_id": "REPLACE_WITH_AUTHORIZED_SESSION_UUID",
+      "desktop_session_id": "REPLACE_WITH_AUTHORIZED_DESKTOP_SESSION_ID",
+      "version": "REPLACE_WITH_VALIDATED_RUNTIME_VERSION",
+      "registry": "REPLACE_WITH_AUTHORIZED_REGISTRY_FILE",
+      "metadata": "REPLACE_WITH_AUTHORIZED_METADATA_FILE"
+    }
+  ]
+}

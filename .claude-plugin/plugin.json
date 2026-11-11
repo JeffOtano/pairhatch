@@ -1,0 +1,9 @@
+{
+  "name": "pairhatch",
+  "version": "10.0.0",
+  "description": "Experimental bounded agent consultation: guided offline setup, no hooks or automatic connections.",
+  "author": {
+    "name": "Jeff Otano"
+  },
+  "skills": "./skills/"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "pairhatch",
+  "owner": {
+    "name": "Jeff Otano"
+  },
+  "plugins": [
+    {
+      "name": "pairhatch",
+      "source": "./",
+      "description": "Guided setup for the experimental local broker."
+    }
+  ]
+}
