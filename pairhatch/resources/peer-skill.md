@@ -43,8 +43,8 @@ Use only the actor assigned to this host. Do not load both actors in one session
 
 ## Detailed references
 
-The private repository contains an MCP input/output/error cookbook and a
-troubleshooting guide (repository access required):
+The repository contains an MCP input/output/error cookbook and a
+troubleshooting guide:
 - https://github.com/JeffOtano/pairhatch/blob/main/docs/MCP_COOKBOOK.md
 - https://github.com/JeffOtano/pairhatch/blob/main/docs/TROUBLESHOOTING.md
 

@@ -88,7 +88,7 @@ def write_bundles(directory, servers, hosts, write):
                   "This command creates a grant; it is not run by setup. Do not run it on skill load.\n"
                   "Use grant_id approved-synthetic-check, a fresh consultation_id and fresh message IDs.\n"
                   "If that grant ID exists or delivery is uncertain, inspect state, never recreate/retry.\n\n"
-                  "Private repository references (repository access required):\n"
+                  "Repository references:\n"
                   "https://github.com/JeffOtano/pairhatch/blob/main/INSTALL.md\n"
                   "https://github.com/JeffOtano/pairhatch/blob/main/docs/HOST_VALIDATION.md\n"
                   "https://github.com/JeffOtano/pairhatch/blob/main/docs/RETENTION.md\n\n"

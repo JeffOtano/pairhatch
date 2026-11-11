@@ -1,9 +1,8 @@
 # Install Pairhatch
 
 **Experimental. Offline setup works; independent two-host delivery is not certified.**
-Linux/macOS, Python 3.10+. No runtime dependencies. Repository access is currently
-private; the commands below require access until publication is explicitly approved.
-No package-registry name or release is available yet.
+Linux/macOS, Python 3.10+. No runtime dependencies. The source repository is
+public. No package-registry name or release is available yet.
 
 ## Fastest working route: one command after checkout
 
@@ -101,8 +100,7 @@ Then ask: "Use the pairhatch skill to set up a local offline demo."
 
 Plugin installation persists instructions in your host; it does not grant broker
 access or connect peers. Installing a plugin is optional. The source-checkout
-command above works without it. Host installation may require repository access
-and host approval. Never put a token in a command or config example.
+command above works without it. Host installation may require host approval. Never put a token in a command or config example.
 
 ## Prefer an installed CLI?
 

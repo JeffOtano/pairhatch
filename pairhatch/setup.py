@@ -93,7 +93,7 @@ def setup(directory, hosts=None):
         "These commands launch real hosts; review provider/logging and tool permissions first.\n"
         "Persistent registration needs separate informed permission.\n"
         "Never weaken host approval policies to make a test pass.\n"
-        "Private repository references (repository access required):\n"
+        "Repository references:\n"
         "https://github.com/JeffOtano/pairhatch/blob/main/INSTALL.md\n"
         "https://github.com/JeffOtano/pairhatch/blob/main/docs/HOST_VALIDATION.md\n"
         "Each host bundle README includes an operator-only finite-grant example.\n")

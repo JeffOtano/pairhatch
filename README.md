@@ -1,6 +1,6 @@
 # Pairhatch
 
-**Experimental release candidate, not publicly released or production-ready.**
+**Experimental release candidate. Source is public; not production-ready.**
 Python 3.10+ on POSIX (Linux/macOS); no runtime dependencies. Windows is not
 supported because file ownership, permissions and Unix sockets are integral.
 The package name has not been reserved or checked on any public registry.
@@ -31,7 +31,7 @@ verified; the source-checkout route above is covered by automated tests.
 
 ## Install from this reviewed source
 
-Before publication, repository access is required. Clone the reviewed source first:
+Clone the reviewed source first:
 
 ```sh
 git clone https://github.com/JeffOtano/pairhatch.git
@@ -44,8 +44,8 @@ pairhatch --help
 
 Building uses setuptools from the standard Python package registry. Installation
 does not register an MCP server, install a daemon, obtain credentials or send a
-message. Licensed under MIT, copyright (c) 2026 Jeff Otano. This candidate is prepared for experimental release; publication is a separate
-maintainer action. No stable native-host compatibility is claimed.
+message. Licensed under MIT, copyright (c) 2026 Jeff Otano. This candidate is published as experimental source; a tagged or
+package-registry release is a separate maintainer action. No stable native-host compatibility is claimed.
 
 ## Offline demo
 
@@ -119,10 +119,11 @@ python scripts/clean_install_test.py
 ```
 
 The clean-install smoke test uses a fresh virtual environment, a locally built
-wheel, an unrelated working directory and only synthetic mock messages. CI is
-provided for Linux/macOS and several Python versions; it has not run remotely.
+wheel, an unrelated working directory and only synthetic mock messages. CI runs
+these mock and packaging checks on Linux/macOS for Python 3.10 to 3.14; it does
+not exercise live hosts.
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the contributor workflow and
-[RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) for remaining publication gates.
+[RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) for remaining release gates.
 
 ## Native Codex command-line disclosure
 

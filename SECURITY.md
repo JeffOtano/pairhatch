@@ -24,8 +24,8 @@ The consultation state `completed` means protocol closure after final admission 
 
 ## Reporting issues
 
-A public security contact has not been selected. Before publication, establish a
-private reporting channel. Do not post transcripts, secrets, session identifiers
+A public security contact has not been selected, and no private reporting
+channel exists yet although the source is public. Do not post transcripts, secrets, session identifiers
 or exploit details in public issues. This alpha has no supported-version or
 response-time commitment. See docs/RETENTION.md for stored data and cleanup.
 

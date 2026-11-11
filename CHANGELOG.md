@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Published the source repository; corrected documentation and generated
+  bundle text that described it as private or not yet run in hosted CI.
+
 - Add one-command offline setup with disposable checks, zero persistent grants,
   and review-only host snippets; add optional instruction-only plugin manifests.
 
