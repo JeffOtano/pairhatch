@@ -31,8 +31,8 @@ permissions or broaden grants to make a check pass.
 Include stage, command/tool name (redact private paths/content), host and runtime
 versions, observed error/state, whether any send could have occurred, completed
 checks and smallest needed decision. Never send raw transcripts, credentials,
-native session IDs or database files to a public issue. No public security contact
-is configured; use an owner-approved private route.
+native session IDs or database files to a public issue. For security
+concerns use the private reporting route in SECURITY.md.
 
 ## Known limits, not bugs to bypass
 

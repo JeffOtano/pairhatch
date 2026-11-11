@@ -2,9 +2,9 @@
 
 Status: the first snapshot was published to https://github.com/JeffOtano/pairhatch
 on 2026-11-11 as a single root commit. Remote refs, visibility and hosted CI were
-verified. Step 5's private vulnerability-reporting route and step 6's tag and
-build artifacts were not done. The steps below remain the procedure for any
-later snapshot.
+verified. Step 5's private vulnerability-reporting route was enabled on GitHub
+after publication. Step 6's tag and build artifacts were not done. The steps
+below remain the procedure for any later snapshot.
 
 This source snapshot has an independent Git history. Preparation does not publish
 it, create a repository, change visibility or install host integrations.

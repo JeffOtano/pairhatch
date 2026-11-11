@@ -10,6 +10,8 @@ Done for the source publication (2026-11-11):
 - The published root commit uses a public-safe author/committer identity.
 - Hosted CI ran on the published repository and passed on Linux/macOS for
   Python 3.10 to 3.14. It covers mocks and packaging only.
+- GitHub private vulnerability reporting was enabled after publication. No
+  test report has been sent through it.
 
 Still open before any tagged or packaged release:
 - Complete independent source/security/provenance review. Automated checks do
@@ -18,13 +20,11 @@ Still open before any tagged or packaged release:
   omitting it or replacing it with a supported public interface.
 - Validate live integrations separately with exact destination/content approval.
   This candidate's tests use synthetic data and mocks only.
-- Confirm public package-registry name availability, support contact and vulnerability
-  reporting channel. No contact or organization has been invented.
+- Confirm public package-registry name availability and support contact. No
+  contact or organization has been invented.
 - Build artifacts from reviewed source and inspect contents before publication.
 - Review Git author/committer metadata of every new commit for personal
   addresses, not only current files. Do not rewrite history without explicit approval.
-- Establish and verify a private security-reporting channel. The source was
-  published without one.
 
 Do not include live peer configuration, receipts, transcripts, host logs,
 credentials, vendor application binaries or private machine state in releases.

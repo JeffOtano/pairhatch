@@ -36,8 +36,8 @@ or that actor labels provide authentication. Read ARCHITECTURE.md and SECURITY.m
 
 Do not send live native traffic or register an MCP server as part of routine tests.
 Those operations require separately scoped authorization. Security reports belong
-in a private channel agreed with the owner, never a public issue or a live trace.
-No verified public reporting address is configured yet.
+in GitHub private vulnerability reporting (see SECURITY.md), never a public issue
+or a live trace.
 
 ## Release process
 
